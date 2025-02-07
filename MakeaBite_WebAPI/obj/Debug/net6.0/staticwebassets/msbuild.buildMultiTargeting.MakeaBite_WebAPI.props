@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MakeaBite_WebAPI.props" />
+</Project>
