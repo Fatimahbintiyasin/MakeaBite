@@ -1,0 +1,27 @@
+﻿@model MakeaBite_WebApp.Models.IngredientCreateViewModel
+
+@{
+    ViewData["Title"] = "Add Ingredient";
+}
+
+<h1>Add Ingredient</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddIngredientForRecipe" asp-controller="Ingredient">
+            <div><label for="ingredientName">Ingredient Name: </label><input placeholder="Enter Ingredient Name:" id="ingredientName" type="text" name="ingredientName" /></div>
+            <div><label for="ingredientAmount">Ingredient Amount: </label><input id="ingredientAmount" placeholder="Enter Ingredient Amount:" type="text" name="ingredientAmount" /></div>
+            <div><input type="hidden" name="recipeId" value="@Model.RecipeId" /></div>
+            <div class="form-group">
+                <input type="submit" value="Add" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

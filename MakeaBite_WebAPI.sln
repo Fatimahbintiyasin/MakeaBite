@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeaBite_WebAPI", "MakeaBite_WebAPI\MakeaBite_WebAPI.csproj", "{03BB917E-72F9-46C1-B7E1-163D25F1CB97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeaBite_Library", "MakeaBite_Library\MakeaBite_Library.csproj", "{FE76E1B7-3955-47EF-9FF6-7659ED7AF1AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeaBite_WebApp", "MakeaBite_WebApp\MakeaBite_WebApp.csproj", "{57F15C87-E983-4003-9FB7-AD0E0B90C269}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03BB917E-72F9-46C1-B7E1-163D25F1CB97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03BB917E-72F9-46C1-B7E1-163D25F1CB97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03BB917E-72F9-46C1-B7E1-163D25F1CB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03BB917E-72F9-46C1-B7E1-163D25F1CB97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE76E1B7-3955-47EF-9FF6-7659ED7AF1AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE76E1B7-3955-47EF-9FF6-7659ED7AF1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE76E1B7-3955-47EF-9FF6-7659ED7AF1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE76E1B7-3955-47EF-9FF6-7659ED7AF1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F15C87-E983-4003-9FB7-AD0E0B90C269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F15C87-E983-4003-9FB7-AD0E0B90C269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F15C87-E983-4003-9FB7-AD0E0B90C269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F15C87-E983-4003-9FB7-AD0E0B90C269}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45F5FBFF-4852-4BE2-82EA-430D52011B15}
+	EndGlobalSection
+EndGlobal
