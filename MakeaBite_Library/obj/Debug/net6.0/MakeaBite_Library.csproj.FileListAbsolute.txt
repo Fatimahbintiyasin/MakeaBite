@@ -1,0 +1,14 @@
+C:\Users\yasin\Desktop\COMP306\Labs\Group Project\MakeaBite_WebAPI\MakeaBite_Library\bin\Debug\net6.0\MakeaBite_Library.deps.json
+C:\Users\yasin\Desktop\COMP306\Labs\Group Project\MakeaBite_WebAPI\MakeaBite_Library\bin\Debug\net6.0\MakeaBite_Library.runtimeconfig.json
+C:\Users\yasin\Desktop\COMP306\Labs\Group Project\MakeaBite_WebAPI\MakeaBite_Library\bin\Debug\net6.0\MakeaBite_Library.dll
+C:\Users\yasin\Desktop\COMP306\Labs\Group Project\MakeaBite_WebAPI\MakeaBite_Library\bin\Debug\net6.0\MakeaBite_Library.pdb
+C:\Users\yasin\Desktop\COMP306\Labs\Group Project\MakeaBite_WebAPI\MakeaBite_Library\obj\Debug\net6.0\MakeaBite_Library.csproj.AssemblyReference.cache
+C:\Users\yasin\Desktop\COMP306\Labs\Group Project\MakeaBite_WebAPI\MakeaBite_Library\obj\Debug\net6.0\MakeaBite_Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yasin\Desktop\COMP306\Labs\Group Project\MakeaBite_WebAPI\MakeaBite_Library\obj\Debug\net6.0\MakeaBite_Library.AssemblyInfoInputs.cache
+C:\Users\yasin\Desktop\COMP306\Labs\Group Project\MakeaBite_WebAPI\MakeaBite_Library\obj\Debug\net6.0\MakeaBite_Library.AssemblyInfo.cs
+C:\Users\yasin\Desktop\COMP306\Labs\Group Project\MakeaBite_WebAPI\MakeaBite_Library\obj\Debug\net6.0\MakeaBite_Library.csproj.CoreCompileInputs.cache
+C:\Users\yasin\Desktop\COMP306\Labs\Group Project\MakeaBite_WebAPI\MakeaBite_Library\obj\Debug\net6.0\MakeaBite_Library.dll
+C:\Users\yasin\Desktop\COMP306\Labs\Group Project\MakeaBite_WebAPI\MakeaBite_Library\obj\Debug\net6.0\refint\MakeaBite_Library.dll
+C:\Users\yasin\Desktop\COMP306\Labs\Group Project\MakeaBite_WebAPI\MakeaBite_Library\obj\Debug\net6.0\MakeaBite_Library.pdb
+C:\Users\yasin\Desktop\COMP306\Labs\Group Project\MakeaBite_WebAPI\MakeaBite_Library\obj\Debug\net6.0\MakeaBite_Library.genruntimeconfig.cache
+C:\Users\yasin\Desktop\COMP306\Labs\Group Project\MakeaBite_WebAPI\MakeaBite_Library\obj\Debug\net6.0\ref\MakeaBite_Library.dll
