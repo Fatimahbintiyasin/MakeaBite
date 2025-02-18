@@ -1,0 +1,49 @@
+--Delete the MakeaBite database if it exists. 
+IF EXISTS(SELECT * from sys.databases WHERE name='MakeaBite') 
+BEGIN 
+    DROP DATABASE MakeaBite; 
+END 
+
+CREATE DATABASE MakeaBite;
+GO
+
+
+USE MakeaBite;
+GO
+
+-- Create the Recipe table
+CREATE TABLE Recipe (
+    ID INT PRIMARY KEY,
+    RecipeName VARCHAR(30),
+    RecipeType VARCHAR(30),
+    AuthorId VARCHAR(70),
+    Description VARCHAR(3000),
+    ImageUrl VARCHAR(300)
+);
+
+INSERT INTO Recipe VALUES (1, 'Pasta Carbonara', 'Italian', 'author1', 'Delicious pasta dish with bacon, eggs, and cheese sauce', 'image1.jpg');
+INSERT INTO Recipe VALUES (2, 'Chicken Curry', 'Indian', 'author2', 'Spicy chicken curry with aromatic spices', 'image2.jpg');
+INSERT INTO Recipe VALUES (3, 'Chocolate Cake', 'Dessert', 'author3', 'Rich and moist chocolate cake with chocolate frosting', 'image3.jpg');
+INSERT INTO Recipe VALUES (4, 'Caesar Salad', 'Salad', 'author4', 'Classic Caesar salad with romaine lettuce, croutons, and Caesar dressing', 'image4.jpg');
+INSERT INTO Recipe VALUES (5, 'Tacos', 'Mexican', 'author5', 'Tacos filled with seasoned ground beef, lettuce, cheese, and salsa', 'image5.jpg');
+
+
+-- Create the Ingredient table
+CREATE TABLE Ingredient (
+    ID INT PRIMARY KEY,
+    IngredientName VARCHAR(60),
+    IngredientAmount VARCHAR(60),
+    RecipeId INT,
+    FOREIGN KEY (RecipeId) REFERENCES Recipe(ID)
+);
+
+INSERT INTO Ingredient VALUES (1, 'Spaghetti', '200g', 1);
+INSERT INTO Ingredient VALUES (2, 'Chicken', '100g', 1);
+INSERT INTO Ingredient VALUES (3, 'Eggs', '2', 1);
+INSERT INTO Ingredient VALUES (4, 'Parmesan Cheese', '50g', 1);
+INSERT INTO Ingredient VALUES (5, 'Chicken', '500g', 2);
+INSERT INTO Ingredient VALUES (6, 'Curry Powder', '2 tbsp', 2);
+INSERT INTO Ingredient VALUES (7, 'Chocolate', '200g', 3);
+INSERT INTO Ingredient VALUES (8, 'Flour', '250g', 3);
+INSERT INTO Ingredient VALUES (9, 'Lettuce', '1 head', 4);
+INSERT INTO Ingredient VALUES (10, 'Croutons', '1 cup', 4);
