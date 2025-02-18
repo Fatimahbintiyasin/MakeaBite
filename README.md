@@ -13,7 +13,7 @@ MakeaBite is a user-friendly web API that enables users to create healthy recipe
 - **Containerization**: Docker
 - **API Documentation**: Swagger
 
-##Instructions
+## Instructions
 
 1. Download the project, extract the zip file, and open it in Visual Studio
 2. Set up your **AWS RDS** and Insert data for the Recipe and Ingredient table. You can get the code in the **MakeaBite_db_query.txt** file
